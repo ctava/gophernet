@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ctava/gophernet/gophernet"
+	"github.com/ctava/gophernet"
 	"gonum.org/v1/gonum/floats"
 	"gonum.org/v1/gonum/mat"
 )
@@ -23,7 +23,7 @@ func main() {
 		HiddenNeurons: 3,
 		OutputNeurons: 3,
 		NumEpochs:     5000,
-		LearningRate:  0.001,
+		LearningRate:  0.003,
 	}
 
 	// Train the neural network.
