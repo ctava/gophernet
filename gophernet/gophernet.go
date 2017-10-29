@@ -24,8 +24,8 @@ type GopherNet struct {
 // architecture and learning parameters.
 type GopherNetConfig struct {
 	InputNeurons  int
-	OutputNeurons int
 	HiddenNeurons int
+	OutputNeurons int
 	NumEpochs     int
 	LearningRate  float64
 }

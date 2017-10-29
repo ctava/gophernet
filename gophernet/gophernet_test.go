@@ -6,8 +6,8 @@ import (
 )
 
 var inputNeurons = 4
-var outputNeurons = 3
 var hiddenNeurons = 3
+var outputNeurons = 3
 var numEpochs = 5000
 var learningRate = 0.3
 

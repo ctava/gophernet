@@ -20,10 +20,10 @@ func main() {
 	// Define our network architecture and learning parameters.
 	config := gophernet.GopherNetConfig{
 		InputNeurons:  4,
-		OutputNeurons: 3,
 		HiddenNeurons: 3,
+		OutputNeurons: 3,
 		NumEpochs:     5000,
-		LearningRate:  0.3,
+		LearningRate:  0.001,
 	}
 
 	// Train the neural network.
